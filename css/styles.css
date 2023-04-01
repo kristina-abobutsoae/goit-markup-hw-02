@@ -1,8 +1,11 @@
 body {
-font-family: Roboto, sans-serif;
+font-family: 'Roboto', sans-serif;
 color: var(--color-contacts-p);
 background-color: var(--white-color);
 letter-spacing: 0.02em;
+}
+ 
+:root {
 }
 
 /* additional properties */
@@ -19,7 +22,7 @@ text-decoration: none;
 /*HEADER */
 .logo-link {
     color: #4D5AE5;
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -78,3 +81,52 @@ text-decoration: none;
 }
 
 /* HERO SECTION */
+.first-sec { 
+background-color: #4D5AE5;
+}
+.first-sec-title {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    background: #2E2F42;
+}
+.hero-button {
+    font-family: Roboto; 
+    font-style: normal;  
+    font-weight: 500;  
+    font-size: 16px;  
+    line-height: 1.5;  
+    letter-spacing: 0.04em;  
+    color: #FFFFFF;  
+    cursor: pointer;  
+    background: #4D5AE5;
+}
+.hero-button:hover
+.hero-button:hover{
+    background-color: #404BBF;
+}
+
+/* SECOND SECTION */
+.second-sec-title {
+    color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.second-sec-text {
+    color: #434455;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
