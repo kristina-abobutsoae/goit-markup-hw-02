@@ -1,0 +1,80 @@
+body {
+font-family: Roboto, sans-serif;
+color: var(--color-contacts-p);
+background-color: var(--white-color);
+letter-spacing: 0.02em;
+}
+
+/* additional properties */
+.link {
+text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.hidden {
+    display: none;
+}
+
+/*HEADER */
+.logo-link {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-dark {
+    color: #2E2F42;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+} 
+.nav-link {
+    color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #4D5AE5;
+}
+.mail-link {
+    color: #434455;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.mail-link:hover,
+.mail-link:focus {
+    color: #4D5AE5;
+}
+.phone-link{
+    color: #434455;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.phone-link:hover,
+.phone-link:focus{
+    color: #4D5AE5;
+}
+
+/* HERO SECTION */
