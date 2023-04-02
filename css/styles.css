@@ -1,7 +1,7 @@
 body {
 font-family: 'Roboto', sans-serif;
-color: var(--color-contacts-p);
-background-color: var(--white-color);
+color: #434455;
+background-color: #FFFFFF;
 letter-spacing: 0.02em;
 }
 
@@ -25,7 +25,7 @@ text-decoration: none;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.7em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -35,7 +35,7 @@ text-decoration: none;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.7em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 } 
@@ -50,7 +50,7 @@ text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus {
-    color: #4D5AE5;
+    color: #404BBF;
 }
 
 .mail-link {
@@ -64,7 +64,7 @@ text-decoration: none;
 }
 .mail-link:hover,
 .mail-link:focus {
-    color: #4D5AE5;
+    color: #404BBF;
 }
 .phone-link{
     color: #434455;
@@ -86,11 +86,11 @@ background: #2E2F42;
 }
 .first-sec-title {
     color: #FFFFFF;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07em;
     text-align: center;
     letter-spacing: 0.02em;
 }
@@ -106,7 +106,7 @@ background: #2E2F42;
     background: #4D5AE5;
 }
 .hero-button:hover
-.hero-button:hover{
+.hero-button:focus{
     background-color: #404BBF;
 }
 
@@ -137,7 +137,7 @@ background: #2E2F42;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11em;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -159,7 +159,7 @@ text-transform: capitalize;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11em;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
