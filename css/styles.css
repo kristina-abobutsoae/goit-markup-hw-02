@@ -9,6 +9,7 @@ body {
   --main-color: #4d5ae5;
   --primary-color: #2e2f42;
   --white-color: #ffffff;
+  --alternative-color: #404bbf;
 }
 
 /* additional properties */
@@ -54,7 +55,7 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--alternative-color);
 }
 .address {
   font-style: normal;
@@ -69,7 +70,7 @@ body {
 }
 .contact:hover,
 .contact:focus {
-  color: #404bbf;
+  color: var(--alternative-color);
 }
 /* HERO SECTION */
 .first-sec {
@@ -97,7 +98,7 @@ body {
   background: var(--main-color);
 }
 .hero-button:hover .hero-button:focus {
-  background-color: #404bbf;
+  background-color: var(--alternative-color);
 }
 
 /* SECOND SECTION */
@@ -249,7 +250,7 @@ body {
 .button:hover,
 .button:focus {
   color: var(--white-color);
-  background: #404bbf;
+  background: var(--alternative-color);
 }
 
 /* PROJECTS */
@@ -273,7 +274,7 @@ body {
 }
 /* FOOTER */
 .footer-link {
-  color: #4d5ae5;
+  color: var(--main-color);
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
