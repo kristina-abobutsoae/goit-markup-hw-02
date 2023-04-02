@@ -83,7 +83,6 @@ text-decoration: none;
 .phone-link:focus{
     color: var(--main-color);
 }
-
 /* HERO SECTION */
 .first-sec { 
 background: var(--primary-color);
