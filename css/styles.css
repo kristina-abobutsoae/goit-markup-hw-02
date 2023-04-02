@@ -4,7 +4,8 @@ color: var(--color-contacts-p);
 background-color: var(--white-color);
 letter-spacing: 0.02em;
 }
- 
+
+
 
 /* additional properties */
 .link {
@@ -51,6 +52,7 @@ text-decoration: none;
 .nav-link:focus {
     color: #4D5AE5;
 }
+
 .mail-link {
     color: #434455;
     font-family: 'Roboto';
@@ -239,10 +241,42 @@ text-transform: capitalize;
     text-transform: uppercase;
 }
 /* BUTTONS AND PICTURES */
-.btn-item {
-    
+.button {
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+l   etter-spacing: 0.04em;
+}
+.button:hover,
+.button:focus {
+    color: #FFFFFF;
+    background: #404BBF;
 }
 
+/* PROJECTS */
+.project-name {
+    color: #2E2F42;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.project-text {
+    color: #434455;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
 /* FOOTER */
 .footer-link {
     color: #4D5AE5;
