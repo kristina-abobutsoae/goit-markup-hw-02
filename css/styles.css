@@ -57,31 +57,18 @@ text-decoration: none;
     color: #404BBF;
 }
 
-.mail-link {
+.contact {
     color: #434455;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
 }
-.mail-link:hover,
-.mail-link:focus {
+.contact:hover,
+.contact:focus {
     color: #404BBF;
-}
-.phone-link{
-    color: #434455;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-}
-.phone-link:hover,
-.phone-link:focus{
-    color: var(--main-color);
 }
 /* HERO SECTION */
 .first-sec { 
