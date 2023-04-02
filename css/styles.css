@@ -244,13 +244,14 @@ text-transform: capitalize;
 .button {
     color: #4D5AE5;
     background: #F4F4FD;
+    cursor: pointer;
     border: 1px solid #E7E9FC;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-l   etter-spacing: 0.04em;
+    letter-spacing: 0.04em;
 }
 .button:hover,
 .button:focus {
@@ -274,27 +275,27 @@ l   etter-spacing: 0.04em;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
 }
 /* FOOTER */
 .footer-link {
     color: #4D5AE5;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .logo-footer {
     color: #F4F4FD;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
