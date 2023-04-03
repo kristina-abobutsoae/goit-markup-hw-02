@@ -103,7 +103,7 @@ body {
   color: var(--primary-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .second-sec-text {
@@ -112,7 +112,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -252,14 +252,14 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.83;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .project-text {
   color: var(--contacts-color);
   font-style: normal;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* FOOTER */
