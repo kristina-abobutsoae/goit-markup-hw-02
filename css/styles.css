@@ -1,8 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--contacts-color);
   background-color: var(--white-color);
-  letter-spacing: 0.02em;
 }
 
 :root {
@@ -47,8 +46,6 @@ body {
 }
 .nav-link {
   color: var(--primary-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -79,11 +76,9 @@ body {
 }
 .first-sec-title {
   color: var(--white-color);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07em;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -106,11 +101,9 @@ body {
 /* SECOND SECTION */
 .second-sec-title {
   color: var(--primary-color);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .second-sec-text {
@@ -119,7 +112,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -205,11 +198,8 @@ body {
 }
 .footer-text {
   color: #f4f4fd;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -246,7 +236,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 .button:hover,
@@ -262,16 +252,14 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 0.83;
   letter-spacing: 0.02em;
 }
 .project-text {
   color: var(--contacts-color);
-  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* FOOTER */
@@ -281,7 +269,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17em;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -291,7 +279,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17em;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
